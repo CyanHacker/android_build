@@ -510,10 +510,8 @@ else if get_stage("%(bcb_dev)s", "stage") == "3/3" then
 
   script.Print("****************************************")
   script.Print("****************************************")
-  script.Print("****************************************")            
-  script.Print("*************CyanHacker ROM*************")
-  script.Print("**********www.hackerromteam.de**********")
-  script.Print("****************************************")
+  script.Print("***************CYANHACKER***************")            
+  script.Print("*******************ROM******************")
   script.Print("****************************************") 
   script.Print("****************************************")
   script.Print("Erasing System...")
@@ -564,9 +562,7 @@ else if get_stage("%(bcb_dev)s", "stage") == "3/3" then
   script.Print("********Rom succesfully flashed*********")
   script.Print("****************************************")
   script.Print("****************************************")
-  script.Print("****************************************")
   script.Print("****************Have Fun****************")
-  script.Print("**********Hacker Rom Team 2014**********")
   script.Print("****************************************")
   device_specific.FullOTA_InstallEnd()
 
